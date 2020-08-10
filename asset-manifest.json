@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SubanOsmanProjectFive/static/css/main.8bad12f4.chunk.css",
+    "main.js": "/SubanOsmanProjectFive/static/js/main.d676e297.chunk.js",
+    "main.js.map": "/SubanOsmanProjectFive/static/js/main.d676e297.chunk.js.map",
+    "runtime-main.js": "/SubanOsmanProjectFive/static/js/runtime-main.aca036f2.js",
+    "runtime-main.js.map": "/SubanOsmanProjectFive/static/js/runtime-main.aca036f2.js.map",
+    "static/js/2.5dcd5460.chunk.js": "/SubanOsmanProjectFive/static/js/2.5dcd5460.chunk.js",
+    "static/js/2.5dcd5460.chunk.js.map": "/SubanOsmanProjectFive/static/js/2.5dcd5460.chunk.js.map",
+    "index.html": "/SubanOsmanProjectFive/index.html",
+    "precache-manifest.b896d1976a7590c55118aca1bbbc42dd.js": "/SubanOsmanProjectFive/precache-manifest.b896d1976a7590c55118aca1bbbc42dd.js",
+    "service-worker.js": "/SubanOsmanProjectFive/service-worker.js",
+    "static/css/main.8bad12f4.chunk.css.map": "/SubanOsmanProjectFive/static/css/main.8bad12f4.chunk.css.map",
+    "static/js/2.5dcd5460.chunk.js.LICENSE.txt": "/SubanOsmanProjectFive/static/js/2.5dcd5460.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aca036f2.js",
+    "static/js/2.5dcd5460.chunk.js",
+    "static/css/main.8bad12f4.chunk.css",
+    "static/js/main.d676e297.chunk.js"
+  ]
+}
