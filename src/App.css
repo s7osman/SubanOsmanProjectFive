@@ -16,26 +16,46 @@ light pink - fcd5ce
 dark pink ffb5a7 */
 
 body {
-  background: #bee3db;
-  color: #555b6e;
+  background: #03071E;
+  background-size: cover;
+  color: #E85D04;
   font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
-  color: #555b6e;
+  color: #FFBA08;
   font-size: 70px;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border-bottom: 2px solid #FAA307;
+}
+
+p {
+  color: #FFBA08;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Antic Slab', serif;
+}
+
+span {
+  border-bottom: 1px solid #FAA307;
 }
 
 button { 
-  background: #ffd6ba;
-  border: 10px solid #ffd6ba;
-  border-radius: 15%;
+  background: #370617;
+  border: 5px solid #370617;
+  border-radius: 10%;
   margin-left: 10px;
+  color: #FFBA08;
 }
 
 input {
-  background: #89b0ae;
-  border: 5px solid #89b0ae;
+  background: #03071E;
+  border: none;
+  border-bottom: 2px solid #6A040F;
+  color: #E85D04;
 }
 
 div {
@@ -54,11 +74,14 @@ ul {
 
 
 li p {
-  background: rgba(255, 214, 186, 0.639);
-  border: 5px solid #ffd6ba;
+  background: rgba(255, 185, 8, 0.37);
+  border: 5px solid rgba(255, 185, 8, 0.384);
   border-radius: 15%;
   padding: 45px;
   margin-right: 15px;
   width: 100%;
+  font-family: 'Antic Slab', serif;
+  color: #370617;
+
 }
 

@@ -2,30 +2,31 @@ import React, { Component } from 'react';
 import firebase from './Firebase'
 import './App.css';
 
+
 class App extends Component {
   constructor() {
     super();
     this.state = {
       goals: [],
-      userInput: ''
+      userGoal: ''
     }
   }
 
   componentDidMount() {
-    //This Variable holds the database
+    //This variable refers to data held in the firebase database.
     const dbRef = firebase.database().ref();
     dbRef.on('value', (snapshot) => {
       
-      const newState =[];
+      const newGoals =[];
 
       const data = snapshot.val()
 
       for (let key in data) {
-        newState.push(data[key]);
+        newGoals.push(data[key]);
       }
 
       this.setState({
-        goals: newState
+        goals: newGoals
       })
 
     })
@@ -34,7 +35,7 @@ class App extends Component {
 
   handleChange = (event) => {
     this.setState({
-      userInput: event.target.value
+      userGoal: event.target.value
     })
   }
 
@@ -42,29 +43,27 @@ class App extends Component {
     event.preventDefault();
 
     const dbRef = firebase.database().ref();
-    dbRef.push(this.state.userInput);
+    dbRef.push(this.state.userGoal);
 
     this.setState({
-      userInput: ''
+      userGoal: ''
     })
   }
-
 
   render() {
     return (
       <div className="App">
         <h1>
-          Weekly Goals
+          Monthly Goals
         </h1>
-        <p> My goal this Week is: </p>
-      
+        <p> Write <span>one</span> goal you'd like to accomplish this month. </p>
         <form action="submit">
           <label htmlFor="newGoal" className="sr-only" >Add New Goal Here</label>
           <input 
           type="text"
           id="newGoal"
           onChange={this.handleChange}
-          value={this.state.userInput}
+          value={this.state.userGoal}
           placeholder="Add New Goal Here"/>
 
           <button onClick={this.handleClick}>Add Goal</button>
@@ -81,9 +80,7 @@ class App extends Component {
           })
         }
         </ul>
-
-
-    </div>
+      </div>
     )
   }
 }
