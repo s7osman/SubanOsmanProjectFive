@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import firebase from './Firebase'
+import firebase from './Firebase';
+import Form from './Form';
 import './App.css';
 
 
@@ -22,7 +23,7 @@ class App extends Component {
       const data = snapshot.val()
 
       for (let key in data) {
-        newGoals.push(data[key]);
+        newGoals.push({key: key, name: data[key]});
       }
 
       this.setState({
@@ -33,78 +34,38 @@ class App extends Component {
     
   }
 
-  handleChange = (event) => {
-    this.setState({
-      userGoal: event.target.value
-    })
-  }
-
-  handleClick = (event) => {
-    event.preventDefault();
-
-    const dbRef = firebase.database().ref();
-    dbRef.push(this.state.userGoal);
-
-    this.setState({
-      userGoal: ''
-    })
+// Deleted the goal from both the page as well as the firebase database.
+  deleteGoal = (goalId) => {
+    const dbRef = firebase.database().ref()
+    dbRef.child(goalId).remove();
   }
 
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <h1>
-          Monthly Goals
+          <span className="title">Monthly Goals</span>
         </h1>
-        <p> Write <span>one</span> goal you'd like to accomplish this month. </p>
-        <form action="submit">
-          <label htmlFor="newGoal" className="sr-only" >Add New Goal Here</label>
-          <input 
-          type="text"
-          id="newGoal"
-          onChange={this.handleChange}
-          value={this.state.userGoal}
-          placeholder="Add New Goal Here"/>
-
-          <button onClick={this.handleClick}>Add Goal</button>
-        </form>
+        <div className="appContainer wrapper">
+        <p className="description"> Write <span>one</span> goal you'd like to accomplish this month. </p>
+        <Form />
         
-        <ul>
+        <ul className="wrapper">
         {
           this.state.goals.map((goal) => {
             return (
-              <li>
-                <p>{goal}</p>
+              <li key={goal.key}>
+                <p>{goal.name}</p>
+                <i className="fas fa-backspace" onClick={() => this.deleteGoal(goal.key)}></i>  
               </li>
             )
           })
         }
         </ul>
+        </div>
       </div>
     )
   }
 }
-
-
-// componentDidMount() {
-//   const dbRef = firebase.databse().ref();
-//   dbRef.on('value', (data) => {
-//     const newGoal = data.val();
-//     console.log(newGoal);
-    
-    // const newGoalArray = [];
-
-    // for(propName in newGoal) {
-    //   newGoalArray.push()
-    // }
-
-    // console.log(newGoal)
-
-    // this.setState({
-    //   goals: newGoalArray
-//     // })
-//   })
-// }
-
 
 export default App;

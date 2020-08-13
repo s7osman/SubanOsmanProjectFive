@@ -8,6 +8,12 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+.wrapper {
+  max-width: 1080px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* Colors:
 fec89a - dark tan
 f9dcc4 - light tan
@@ -15,73 +21,134 @@ whote -f8edeb
 light pink - fcd5ce
 dark pink ffb5a7 */
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background: #03071E;
+  background: url('./viggo-jorgen-p5N3PVOOF_0-unsplash.jpg');
   background-size: cover;
-  color: #E85D04;
-  font-size: 20px;
-  font-family: 'Roboto Mono', monospace;
+  font-size: 1.25rem;
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Red Rose', cursive;
 }
 
 h1 {
-  color: #FFBA08;
-  font-size: 70px;
+  color: #242325;
+  font-size: 8.37rem;
   font-family: 'Anton', sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  border-bottom: 2px solid #FAA307;
+  text-align: center;
+}
+
+.title {
+  border-bottom: 2px solid #9d0208;
+}
+
+.description {
+  color: #242325;
+  font-size: 3rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 p {
-  color: #FFBA08;
-  font-weight: 700;
-  font-size: 20px;
-  font-family: 'Antic Slab', serif;
+  color: #242325;
+  font-size: 2.6rem;
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Indie Flower', cursive;
 }
 
 span {
-  border-bottom: 1px solid #FAA307;
+  border-bottom: 1px solid #9d0208;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
 }
 
 button { 
-  background: #370617;
-  border: 5px solid #370617;
+  background: #9d0208;
+  border: 5px solid #9d0208;
   border-radius: 10%;
   margin-left: 10px;
-  color: #FFBA08;
+  margin-top: 16px;
+  color: #d4d2d5;
+  font-family: 'Roboto Mono', monospace;
+  text-transform: uppercase;
+  font-size: 1.7rem
+}
+
+button:hover {
+  background: #370617;
+  border: 5px solid #370617;
+  color: #ffdf2b;
+}
+
+.fas {
+  color: #370617;
+  font-size: 2rem;
+}
+
+.fas:hover {
+  font-size: 3rem;
 }
 
 input {
-  background: #03071E;
+  background: rgba(212, 210, 213, 0.021);
   border: none;
-  border-bottom: 2px solid #6A040F;
-  color: #E85D04;
+  border-bottom: 2px solid #284b63;
+  color: #353535;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 2.7rem;
 }
 
-div {
+input:hover,
+input:focus {
+  border-bottom: 2px solid #ffdf2b 
+}
+
+.appContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 ul {
   list-style: none;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   height: 50%;
+  flex-wrap: wrap;
 }
 
-
-li p {
-  background: rgba(255, 185, 8, 0.37);
-  border: 5px solid rgba(255, 185, 8, 0.384);
-  border-radius: 15%;
-  padding: 45px;
+li{
+  background: rgba(255, 223, 43, 0.315);
+  border-top: 10px solid rgba(255, 223, 43, 0.568);
+  /* border: 2px solid #9d0208; */
+  padding: 32px 30px 6px 32px;
   margin-right: 15px;
-  width: 100%;
-  font-family: 'Antic Slab', serif;
-  color: #370617;
-
+  color: #353535;
+  margin-top: 35px;
 }
 
+li:hover {
+  background: rgba(255, 223, 43, 0.671);
+  border-top: 10px solid rgba(255, 223, 43, 0.671);
+}
+
+footer {
+background: #242325;
+color: #ffdf2b;
+font-family: 'Anton', sans-serif;
+font-size: 2rem;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+  color: #ffdf2b;
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
+}
