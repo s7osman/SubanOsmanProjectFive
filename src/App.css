@@ -14,18 +14,12 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
   margin: 0 auto;
 }
 
-/* Colors:
-fec89a - dark tan
-f9dcc4 - light tan
-whote -f8edeb
-light pink - fcd5ce
-dark pink ffb5a7 */
-
 html {
   font-size: 62.5%;
 }
 
 body {
+  /* Image by Viggo Jorgen from https://unsplash.com/photos/p5N3PVOOF_0 */
   background: url('./viggo-jorgen-p5N3PVOOF_0-unsplash.jpg');
   background-size: cover;
   font-size: 1.25rem;

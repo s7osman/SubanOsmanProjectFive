@@ -35,9 +35,6 @@ handleClick = (event) => {
     }
 }
 
-
-
-
 //form to be displayed on the screen
 render() {
     return(
