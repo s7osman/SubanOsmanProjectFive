@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SubanOsmanProjectFive/static/css/main.14e4167f.chunk.css",
+    "main.css": "/SubanOsmanProjectFive/static/css/main.b1ef09d4.chunk.css",
     "main.js": "/SubanOsmanProjectFive/static/js/main.1097bed2.chunk.js",
     "main.js.map": "/SubanOsmanProjectFive/static/js/main.1097bed2.chunk.js.map",
     "runtime-main.js": "/SubanOsmanProjectFive/static/js/runtime-main.aca036f2.js",
@@ -8,16 +8,16 @@
     "static/js/2.8dac68d9.chunk.js": "/SubanOsmanProjectFive/static/js/2.8dac68d9.chunk.js",
     "static/js/2.8dac68d9.chunk.js.map": "/SubanOsmanProjectFive/static/js/2.8dac68d9.chunk.js.map",
     "index.html": "/SubanOsmanProjectFive/index.html",
-    "precache-manifest.22f542d0de8ec0b74ac53f585bfc2598.js": "/SubanOsmanProjectFive/precache-manifest.22f542d0de8ec0b74ac53f585bfc2598.js",
+    "precache-manifest.fa93beadd58d32d127820e7928a3a92e.js": "/SubanOsmanProjectFive/precache-manifest.fa93beadd58d32d127820e7928a3a92e.js",
     "service-worker.js": "/SubanOsmanProjectFive/service-worker.js",
-    "static/css/main.14e4167f.chunk.css.map": "/SubanOsmanProjectFive/static/css/main.14e4167f.chunk.css.map",
+    "static/css/main.b1ef09d4.chunk.css.map": "/SubanOsmanProjectFive/static/css/main.b1ef09d4.chunk.css.map",
     "static/js/2.8dac68d9.chunk.js.LICENSE.txt": "/SubanOsmanProjectFive/static/js/2.8dac68d9.chunk.js.LICENSE.txt",
     "static/media/App.css": "/SubanOsmanProjectFive/static/media/viggo-jorgen-p5N3PVOOF_0-unsplash.c72baf9f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.aca036f2.js",
     "static/js/2.8dac68d9.chunk.js",
-    "static/css/main.14e4167f.chunk.css",
+    "static/css/main.b1ef09d4.chunk.css",
     "static/js/main.1097bed2.chunk.js"
   ]
 }
