@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/SubanOsmanProjectFive/static/css/main.b1ef09d4.chunk.css",
-    "main.js": "/SubanOsmanProjectFive/static/js/main.1097bed2.chunk.js",
-    "main.js.map": "/SubanOsmanProjectFive/static/js/main.1097bed2.chunk.js.map",
-    "runtime-main.js": "/SubanOsmanProjectFive/static/js/runtime-main.aca036f2.js",
-    "runtime-main.js.map": "/SubanOsmanProjectFive/static/js/runtime-main.aca036f2.js.map",
-    "static/js/2.8dac68d9.chunk.js": "/SubanOsmanProjectFive/static/js/2.8dac68d9.chunk.js",
-    "static/js/2.8dac68d9.chunk.js.map": "/SubanOsmanProjectFive/static/js/2.8dac68d9.chunk.js.map",
-    "index.html": "/SubanOsmanProjectFive/index.html",
-    "precache-manifest.fa93beadd58d32d127820e7928a3a92e.js": "/SubanOsmanProjectFive/precache-manifest.fa93beadd58d32d127820e7928a3a92e.js",
-    "service-worker.js": "/SubanOsmanProjectFive/service-worker.js",
-    "static/css/main.b1ef09d4.chunk.css.map": "/SubanOsmanProjectFive/static/css/main.b1ef09d4.chunk.css.map",
-    "static/js/2.8dac68d9.chunk.js.LICENSE.txt": "/SubanOsmanProjectFive/static/js/2.8dac68d9.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/SubanOsmanProjectFive/static/media/viggo-jorgen-p5N3PVOOF_0-unsplash.c72baf9f.jpg"
+    "main.css": "/monthlyGoals/static/css/main.08a5cc41.chunk.css",
+    "main.js": "/monthlyGoals/static/js/main.74f1a8af.chunk.js",
+    "main.js.map": "/monthlyGoals/static/js/main.74f1a8af.chunk.js.map",
+    "runtime-main.js": "/monthlyGoals/static/js/runtime-main.bb9d3798.js",
+    "runtime-main.js.map": "/monthlyGoals/static/js/runtime-main.bb9d3798.js.map",
+    "static/js/2.29fdd595.chunk.js": "/monthlyGoals/static/js/2.29fdd595.chunk.js",
+    "static/js/2.29fdd595.chunk.js.map": "/monthlyGoals/static/js/2.29fdd595.chunk.js.map",
+    "index.html": "/monthlyGoals/index.html",
+    "precache-manifest.a01646de72699bdc79068eb9ddfdde84.js": "/monthlyGoals/precache-manifest.a01646de72699bdc79068eb9ddfdde84.js",
+    "service-worker.js": "/monthlyGoals/service-worker.js",
+    "static/css/main.08a5cc41.chunk.css.map": "/monthlyGoals/static/css/main.08a5cc41.chunk.css.map",
+    "static/js/2.29fdd595.chunk.js.LICENSE.txt": "/monthlyGoals/static/js/2.29fdd595.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/monthlyGoals/static/media/viggo-jorgen-p5N3PVOOF_0-unsplash.c72baf9f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.aca036f2.js",
-    "static/js/2.8dac68d9.chunk.js",
-    "static/css/main.b1ef09d4.chunk.css",
-    "static/js/main.1097bed2.chunk.js"
+    "static/js/runtime-main.bb9d3798.js",
+    "static/js/2.29fdd595.chunk.js",
+    "static/css/main.08a5cc41.chunk.css",
+    "static/js/main.74f1a8af.chunk.js"
   ]
 }
