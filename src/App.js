@@ -48,19 +48,21 @@ class App extends Component {
         </h1>
         <div className="appContainer wrapper">
         <p className="description"> Write <span>one</span> goal you'd like to accomplish this month. </p>
+
+        // Form Component
         <Form />
         
         <ul className="wrapper">
-        {
-          this.state.goals.map((goal) => {
-            return (
-              <li key={goal.key}>
-                <p>{goal.name}</p>
-                <i className="fas fa-backspace" onClick={() => this.deleteGoal(goal.key)}></i>  
-              </li>
-            )
-          })
-        }
+          {
+            this.state.goals.map((goal) => {
+              return (
+                <li key={goal.key}>
+                  <p>{goal.name}</p>
+                  <i className="fas fa-backspace" onClick={() => this.deleteGoal(goal.key)}></i>  
+                </li>
+              )
+            })
+          }
         </ul>
         </div>
       </div>
