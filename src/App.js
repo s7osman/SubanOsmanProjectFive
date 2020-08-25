@@ -48,8 +48,7 @@ class App extends Component {
         </h1>
         <div className="appContainer wrapper">
         <p className="description"> Write <span>one</span> goal you'd like to accomplish this month. </p>
-
-        // Form Component
+        
         <Form />
         
         <ul className="wrapper">
